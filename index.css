@@ -1,0 +1,331 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(images/background\ image.png);
+    background-size: cover;
+    background-position: 50%;
+    height: 90vh;
+
+}
+
+nav img {
+
+    width: 10%;
+}
+
+
+
+
+
+.red-btn {
+    background: red;
+    color: #fff;
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 5px 17px;
+}
+
+.red-btn:hover {
+    background: red;
+
+}
+
+
+hero-title {
+
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+hero-first-p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+hero-second-p {
+
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+form {
+    width: 60%;
+}
+
+form #floatinginput {
+
+    color: red;
+}
+
+form .form-control:focus {
+    border-color: #fff;
+    box-shadow: none;
+    border-width: medium;
+}
+
+
+form .form-floating>.form#-control:focus~label {
+ 
+    color: whitesmoke;
+}
+
+form .form-floating>.form-control:focus~label::after {
+    background-color: transparent;
+}
+
+form .form-floating {
+    width: 50%;
+}
+
+form #floatingInput {
+    background-color: transparent;
+}
+
+form label {
+
+    
+    color: whitesmoke;
+}
+
+.get-started-btn {
+
+    height: 60px;
+    font-size: 1.5rem;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.get-started-btn::after {
+    content: "\276F";
+    margin-left: 5px;
+}
+
+.section-title {
+
+
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+.section-paragraph {
+
+
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+.watch-section,
+.download-section {
+
+    border-top: 5px solid #232323;
+    border-bottom: 5px solid #232323;
+}
+
+.faq-section h3 {
+
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.faq-section button {
+
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faq-section .accordion {
+    --bs-accordion-color: rgb(255, 255, 255);
+    --bs-accordion-bg: rgb(45, 45, 45);
+    --bs-accordion-border-radius: none;
+
+}
+
+.faq-section .accordion-item:first-of-type .accordion-button {
+
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+.faq-section .accordion-button:focus {
+
+    border: none;
+    box-shadow: none;
+
+}
+
+.faq-section .accordion-button:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.faq-section .accordion-button:not(.collapse) {
+    background-color: rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
+}
+
+
+.faq-section .accordion-button::after {
+    content: "+";
+    background-image: none;
+    position: absolute;
+    height: 30px;
+    font-size: 50px;
+    top: 5px;
+    right: 45px;
+
+}
+
+.faq-section .accordion-button:not(.collapsed)::after {
+
+    background-image: none;
+    transform: none;
+    content: "\00d7";
+}
+
+footer {
+
+    border: 5px solid #232323;
+}
+
+footer p,
+footer a {
+
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer select {
+    background: transparent;
+    color: red;
+    padding-left: 40px;
+    padding-right: 40px;
+    appearance: none;
+    border-radius: 5px;
+}
+
+footer img {
+
+    filter: invert();
+    top: 8px;
+    left: 12px;
+}
+
+footer .arrow-down {
+
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    top: 10px;
+    right: 20px;
+}
+
+
+
+@media screen and (max-width:744px) {
+   
+   
+   
+   
+   
+   
+    nav img {
+
+        width: 17%;
+    }
+
+    .hero-title,
+    .section-title,
+    .section-paragraph {
+
+        font-size: 1.65rem;
+        font-weight: 200;
+    }
+
+    .hero-first-p,
+    .hero-second-p,
+    .faq-section h3 {
+        font-size: 1.125rem;
+
+    }
+       
+   
+    .enjoy-section .container {
+        padding-top: 5rem;
+     
+    }
+
+    .enjoy-section img{
+        width: 45vh;
+    }
+
+  .watch img {
+
+    width: 45vh;
+
+  }
+
+  .children-section img {
+
+    width:45vh;
+  }
+
+
+.download-section  img{
+    width:45vh;
+
+}
+
+
+
+
+
+}
+
+@media screen and(min-width:756px) {
+    nav img {
+        width: 25%;
+
+    }
+
+    header {
+        height: 100vh;
+    }
+
+}
+
+
+@media screen and (max-width:400px) {
+    nav img {
+        width: 35%;
+    }
+
+    form.form-floating {
+        width: 90%;
+    }
+
+header {
+height: 110vh;
+}
+
+}
